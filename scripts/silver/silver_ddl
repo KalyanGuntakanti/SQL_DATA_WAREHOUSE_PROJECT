@@ -1,7 +1,15 @@
+/*
+==============================================================================
+Creating Silver table
+==============================================================================
+-----------------------------------------------------------------------------
+Script Purpose:
 
-
-
-
+  This script creates tables in 'silver' schema, dropping existing tables.
+  Run this script to re-difine the DDL structure of  'silver' tables
+  Additionally created 'dwh_create_date' column ine ach table to capture the date and time for each load
+-----------------------------------------------------------------------------
+*/
 -- Creating Silver Layer for data cleansing and advanced transformations of the data
 
 IF OBJECT_ID('silver.crm_cust_info', 'U') IS NOT NULL
