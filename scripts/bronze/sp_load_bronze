@@ -5,7 +5,7 @@ Store Procedure: Load Bronze Layer (Source -- Bronze table)
 Script Purpose :
   This store procedure loads data into 'bronze' table from external 'csv files'
   - It truncates the bronze table before loading the data
-  - With the help os 'BULK INSERT' command it loads the data to bronze tables
+  - With the help of 'BULK INSERT' command it loads the data to bronze tables
   - It also uses 'TRY & CATCH' to capture any errors during the data load
 
 Usage Example:
